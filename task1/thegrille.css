@@ -1,0 +1,559 @@
+
+*{
+
+    padding: 0px;
+
+    margin: 0px;
+
+}
+
+
+body::-webkit-scrollbar{
+
+    width: 10px;
+
+}
+
+body::-webkit-scrollbar-track{
+
+    background-color: #1a1a1a;
+
+}
+
+body::-webkit-scrollbar-thumb{
+
+    background-color: rgb(248, 170, 67);
+
+    border-radius: 7px;
+
+}
+
+/* ******************************************************************************************************************************** */
+
+/* START PAGE 1 */   
+
+
+body {
+
+    height: 625px;
+
+    position: relative;
+ 
+
+    }
+
+header .nav{
+
+    background-color: rgba(0,0,0,.1);
+
+
+       position: absolute;
+
+       height: 70px;
+
+       width: 100%;
+
+       color: white;
+
+       z-index: 2;
+
+    }
+
+header .nav .left{
+
+    float: left;
+
+    padding: 10px;
+
+    margin: 10px 40px;
+
+    }
+
+header .nav .left p {
+    
+    font-size: 24pt;
+    
+    font-weight: 700;
+    
+    color: rgb(248, 170, 67);
+    
+    font-family: 'Dancing Script';
+}
+
+
+header .nav .right{
+
+    float: right;
+
+       margin: 10px 40px;
+
+    }
+
+header .nav .right ul li{
+
+    display: inline-block;
+
+       padding: 10px;
+
+       font-size: larger;
+
+    }
+
+header .nav .right ul li:hover{
+    
+    cursor: pointer;
+    
+       color: rgb(248, 170, 67);
+
+    }
+
+header .nav2{
+
+    background-color: rgba(0,0,0,.1);
+
+    height: 70px;
+
+    width: 100%;
+
+    color: white;
+
+    z-index: 2;
+
+}
+
+header .nav2 .left{
+
+    float: left;
+
+    padding: 10px;
+
+    margin: 10px 40px;
+
+}
+
+header .nav2 .left p{
+    font-family: 'Dancing Script';
+
+    font-size: 20pt;
+
+    font-weight: bolder;
+
+    color: rgb(248, 170, 67);
+
+
+}
+
+header .nav2 .right{
+
+    float: right;
+
+    margin: 10px 40px;
+
+}
+
+header .nav2 .right ul li{
+
+    display: inline-block;
+
+    padding: 10px;
+
+    font-size: larger;
+  
+
+}
+
+header .nav2 .right ul li:hover{
+
+    cursor: pointer;
+
+    color: rgb(248, 170, 67); 
+
+
+}
+
+.clear{
+
+    clear: both;
+
+    }
+
+
+img {
+
+    width: 300px;
+
+    height: 200px;
+
+}
+
+
+.cont{
+
+    height :625px;
+
+    background-image: url(images/bg.jpg);
+
+    background-size: 100% 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    position: relative;  
+
+}
+
+.cont .layout{
+
+    position: absolute;
+
+       width: 100%;
+
+       height: 100%;
+
+       background-color: rgba(0,0,0,.2);
+
+       
+
+    }
+
+.cont .child{
+
+    text-align: center; 
+
+    left: 0px;
+
+    top: 0px;
+ 
+    color: white;
+
+    z-index: 2;
+   
+
+    }
+
+   
+
+.child h1{
+
+    font-size: 40PX;
+
+       font-weight: 1000;
+
+       color: rgb(248, 170, 67);
+    }
+
+.child h4 {
+
+    font-size: 41px;
+
+    font-family:  'Dancing Script';
+
+}
+
+
+
+button  {
+
+    padding: 10px;
+
+    background-color: antiquewhite;
+
+    font-size: medium;
+
+    margin-top: 22px;
+
+} 
+
+
+
+button:hover{
+
+    background-color: darkgray;
+
+}
+
+
+
+.leftbutton {
+
+    background-color: #c68836;
+
+    color: cornsilk;
+
+
+} 
+
+a {
+
+    text-decoration-line: none;
+
+    color: black;
+ 
+
+}
+
+
+
+
+.learn_more h2 {
+
+    text-align: center;
+
+    padding: 30px;
+
+    font-size: xx-large;
+
+    color: rgb(152 106 44);
+
+}
+
+
+
+
+.learn_more p {
+
+    padding: 0% 9% 5% 9%;
+
+    font-size: 22px;
+
+    text-align: center;
+
+    line-height: 1.8;
+
+}
+
+
+
+div#learn {
+   
+    position: absolute;
+    
+    margin-left: 41%;
+
+    margin-top: -11%;
+}
+
+.learn_more {
+
+    background-color: antiquewhite;
+
+}
+div#learn {
+
+    margin-top: 0%;
+
+    margin-left: 0%;
+   
+}
+
+/* ******************************************************************************************************************************** */
+/* START PAGE 2 */
+
+body .body {
+
+    background-color: #75562c;
+
+    WIDTH: 100%;
+
+    HEIGHT: 1000px;
+
+    background-image: url(images/bg.jpg);
+
+    background-size: 100% 100%;    
+
+}
+
+.containerr {
+
+    width: 90%;
+
+    height: 700px;
+
+    display: flex;
+
+    justify-content: center;
+
+    margin: 6% auto;
+
+
+}
+
+
+.containerr .form {
+
+    width: 69%;
+
+    height: 750px;
+
+    border-radius: 3px;
+
+    box-shadow: 6px 12px 14px 18px #000000b5;
+
+    display: flex;
+
+    background-color: white;
+
+    
+
+}
+
+ input#Userpayment { 
+
+    width: 30px;
+
+    margin-top: 20px;
+} 
+
+.containerr .form .right{
+    width: 100%;
+
+}
+
+
+.containerr .form .right h1 {
+
+    text-align: center;
+
+
+
+    color: #99680f;
+
+
+
+    font-weight: 500;
+
+
+
+    margin-top: 10px;
+
+
+
+}
+
+.containerr .form .right form .one {
+
+    margin: 30px 47px 0px 47px;
+
+}
+
+
+
+.containerr .form .right form .two {
+
+    margin: 15px 47px 0px 47px;
+
+}
+
+
+.containerr .form .right form .text {
+
+
+    border: 1px solid #99680f;
+
+    padding: 15px;
+
+    font-weight: 600;
+
+    color: #8c5c1d;
+
+    CURSOR: default;
+
+}
+
+
+.containerr .form .right form  .inputs {
+
+    display: flex;
+}
+
+
+.containerr .form .right form  .inputs input{
+
+    width: 50%;
+
+    border: 0.5px solid #99680f;
+
+    padding: 15px;
+
+    outline-color:#99680f;
+
+}
+
+.containerr input:focus {
+
+    background-color: #ffd093;
+
+}
+
+
+::placeholder{
+
+    font-size: larger;
+
+}
+
+
+.containerr .form .right form .two .inputs  input {
+
+    width: 100%;
+
+}
+
+
+
+
+.containerr button {
+
+    background-color: #8c5c1d;
+
+    font-size: 16px;
+
+    padding: 7px;
+
+    margin-left: 10% 79%;
+
+    border: 2px solid #77510a;
+
+    border-radius: 3px;
+
+    color: white;
+
+    font-weight: 700;
+
+}
+
+
+
+.containerr button:hover{
+
+    background-color: grey;
+
+    color: honeydew;
+    
+
+}
+
+
+/* ******************************************************************************************************************************** */
+
+p.myResturent  {
+    background-color: rgb(248, 170, 67);
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+

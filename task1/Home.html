@@ -1,0 +1,77 @@
+<html>
+
+    <head>
+         <title> test2</title>
+         <meta charset="UTF-8"/>
+         <meta name="viewport" content="width=device-width,intial-scale=1,shrink-to-fit=no"/>
+         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="thegrille.css">
+
+    </head>
+ 
+
+    <body>
+       
+        <header>
+           <div class="nav">
+               <div class="left">
+                   <P>The Grille</P>
+               </div>
+               <div class="right">
+                   <ul>
+                      <li style="color:  rgb(248, 170, 67);  font-family: 'Dancing Script'; font-size: 25px;"> Blog</li>
+                      <li>Menu</li>
+                      <li>Gallery</li>
+                      <li>Contacts</li>
+                      <li>About</li>
+                      <li>Home</li>
+                   </ul>
+                   <div class="clear"></div>
+   
+               </div>
+           </div>
+        </header>
+
+
+
+        <div class="cont"  > 
+            
+            <div class="layout"></div>
+            <div class="child">
+              <img src="images/restaurant.png" alt="">
+               <h1> French Restaurant</h1>
+               <h4>We’re the best restaurant in town</h4>
+
+               <div class="bn">
+                <button class="leftbutton" type="button" onclick="loadDoc()">Learn More</button> 
+                <button class="rightbutton"> <a href="Booking.html">Book A visit</a> </button>
+            </div> 
+            </div>
+            
+            
+           
+
+        </div>
+
+        <div id="learn"></div>
+       
+
+        
+    </body>
+    
+
+    <script>
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+              if (this.readyState == 4 && this.status == 200) {
+               document.getElementById("learn").innerHTML = this.responseText;
+                }
+              };
+            xhttp.open("GET", "learn.html", true);
+            xhttp.send();
+        }
+    </script> 
+
+      
+</html>
